@@ -27,5 +27,32 @@ h1, span {
     flex-grow: 1;
     object-fit: cover;
     margin: 2px;
+    cursor: pointer;
     }
 }
+.carousel-item {
+  
+    img {
+      max-height: 70vh;
+      object-fit: scale-down;      
+     
+    }
+  }
+  // Overwrite modal
+  .modal {
+      .modal-dialog {
+         
+          .modal-content {
+              background-color: transparent;
+            .modal-header {
+                border-bottom: none;
+                .close, .close:hover {
+                    color: white;
+                }
+            }        
+          }
+          @media (min-width:  768px) {
+            max-width: 80vw;
+          }
+      }
+  }
