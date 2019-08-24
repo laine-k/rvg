@@ -8,7 +8,10 @@ h1, span {
 
 .logo {
   text-align: center;
-  padding: 7em 0; }
+  padding: 7em 0 3em 0; }
+  .logo a, .logo a:hover, .logo a:active {
+    text-decoration: none;
+    color: inherit; }
   .logo img {
     max-width: 100px; }
   .logo span {
@@ -29,7 +32,8 @@ h1, span {
   object-fit: scale-down; }
 
 .modal .modal-dialog .modal-content {
-  background-color: transparent; }
+  background-color: transparent;
+  border: none; }
   .modal .modal-dialog .modal-content .modal-header {
     border-bottom: none; }
     .modal .modal-dialog .modal-content .modal-header .close, .modal .modal-dialog .modal-content .modal-header .close:hover {
@@ -38,3 +42,14 @@ h1, span {
 @media (min-width: 768px) {
   .modal .modal-dialog {
     max-width: 80vw; } }
+
+.nav {
+  background-color: #040322; }
+
+.footer {
+  padding: 2em; }
+  .footer p {
+    text-align: center;
+    color: #1d2b50;
+    font-size: 0.8em;
+    font-weight: bold; }
